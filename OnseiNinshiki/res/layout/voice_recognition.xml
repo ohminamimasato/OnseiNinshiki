@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:text="speak please!" />
+
+    <Button android:id="@+id/btn_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="speak_button" />
+
+    <ListView android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+ </LinearLayout>
